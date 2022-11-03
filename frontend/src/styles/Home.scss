@@ -1,0 +1,71 @@
+.home {
+    .headline-section {
+        background-image: url('./../images/berlin-307382.png');
+        background-size: contain;
+        background-position: 0% 120%;
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        h1:nth-of-type(1) {
+            color: green;
+        }
+
+        h1:nth-of-type(3) {
+            padding-bottom: 20vh;
+        }
+    }
+
+    .image-section {
+        display: flex;
+        padding: 0;
+        margin-top: -13vh;
+
+        .text {
+            width: 50vw;
+            background-color: green;
+            color: #fff;
+            padding: 20vh;
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2rem;
+                font-weight: 300;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+
+            button {
+                background-color: #fff;
+                color: green;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2rem;
+                font-weight: 600;
+                border: none;
+                border-radius: 30px;
+                margin-top: 5vh;
+            }
+
+            button:hover {
+                background-color: green;
+                color: #fff;
+                border: 2px solid #fff;
+            }
+        }
+
+        .image {
+
+            img {
+                object-fit: cover;
+                width: 50vw;
+            }
+        }
+    }
+}

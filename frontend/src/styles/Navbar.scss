@@ -1,0 +1,57 @@
+.navbar {
+
+    .container-fluid {
+
+        .navbar-brand {
+            color: black;
+
+            p {
+                font-size: 3rem;
+                font-family: 'Lobster Two', cursive;
+            }
+        }
+
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.6rem;
+                        color: #000;
+                        font-weight: 600;
+                    }
+
+                    .nav-link:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .btn-navbar {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 600;
+            border-radius: 3px;
+        }
+
+        .btn-navbar:hover {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+
+        img {
+            height: 28px;
+            width: 40px;
+            border-radius: 3px;
+            border: 1px solid gray;
+        }
+
+        img:hover {
+            border: 2px solid #000;
+        }
+    }
+}
